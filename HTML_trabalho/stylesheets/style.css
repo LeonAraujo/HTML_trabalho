@@ -1,0 +1,198 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	overflow-x: hidden;
+}
+header{
+	background: #f7f1e3;
+	color:#218c74;
+	height: 10vh;
+}
+.main{
+  background:#dcdde1;
+  clear:both; /* Preventivo */
+}
+footer{
+	background:#353b48;
+	color:#f7f1e3;
+}
+.logo{
+	width: 20vw;
+	height: 10vh;
+	background-color: cyan;
+	float: left;
+}
+.logo > img {
+	width: 20vw;
+	height: 10vh;
+}
+.menu{
+	float: right;
+	display: flex;
+
+	justify-content: center;
+	align-content: center;
+  /*	gap: 5px;*/
+}
+.menu > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-weight: bolder;
+	font-size:1.1rem;
+	background-color: #f7f1e3;
+	width: 8vw;
+	text-align: center;
+	border:dotted 1px white;
+	height:10vh;
+  cursor:pointer;
+  transition: 0.3s;
+}
+.menu > div:hover{
+	background-color:#d1ccc0;
+	font-size: 1.2rem;
+	transition: 0.3s;
+}
+
+.banner{
+	max-width:100vw;
+	height:90vh;
+	background:red;
+	
+	background-image:url("../imgs/banner.png"); /* Imagem como plano de fundo */ 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+
+}
+.slogan{
+	max-width: 100vw;
+	width:100vw;
+	height:90vh;
+	background: cyan;
+
+	text-transform: uppercase; 
+	font-size: 2.5rem;
+	color: #eae2da; 
+	text-align: center;
+	padding-top: 38vh; /* Espaço interno entre conteúdo e borda do elemento */
+	text-shadow: 1px 1px 5px red;
+	letter-spacing: 5px;
+	font-family: "Edu AU VIC WA NT Pre", cursive;
+
+	/* position: static; - Aplicado por padrão */ 
+	/*position: relative;
+	left:20px; 
+	top:40px; */
+ /* position: fixed;
+  bottom: 0px;
+  left:0px;  
+  z-index:1;*/ 
+  position: absolute;
+  top: 10vh;
+  background-color: rgba(87, 80, 77, 0.6);
+}
+.titulo_sobre {
+    width: 100vw;
+    text-align: center;
+    font-size: 30px;
+}
+.sobre {
+    height: 75vh;
+    width: 100vw;
+    background-color: #baaff8;
+    display: flex;
+}
+.textoSobre {
+    height: 75vh;
+    width: 55vw;
+    background-color: #218c74;
+}
+.imagemSobre {
+    height: 75vh;
+    width: 45vw;
+    background-color: #ffff00;
+}
+.miviva {
+    gap: 20px;
+    display: flex;
+    width: 100vw;
+    height: 55vh;
+    background-color: aquamarine;
+    position: relative;
+}
+.item1 {
+    text-align: center;
+    align-content: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #c45e5e;
+    position: absolute;
+    left: 350px;
+    top: 20px;
+    z-index: 0;
+}
+.item2 {
+    text-align: center;
+    align-content: center;
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    background-color: #c4b55e;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    margin-left: -175px;
+    z-index: 1;
+}
+.item3 {
+    text-align: center;
+    align-content: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #e5f5b8;
+    position: absolute;
+    right: 350px;
+    top: 20px;
+    z-index: 0;
+}
+.tituloAvaliacoes {
+    text-align: center;
+    font-size: 30px;
+    
+}
+.avaliacoes {
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+    background-color: #353b48;
+    gap: 20px;
+    display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.foto1 {
+    margin-top: 30px;
+    width: 25vw;
+    height: 40vh;
+    background-color: #218c74;
+}
+.foto2 {
+    margin-top: 30px;
+    width: 35vw;
+    height: 40vh;
+    background-color: #218c74;
+}
+.foto3 {
+    margin-top: 30px;
+    width: 25vw;
+    height: 40vh;
+    background-color: #218c74;
+}
